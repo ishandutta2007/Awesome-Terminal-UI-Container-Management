@@ -1,259 +1,124 @@
-# Awesome-Terminal-UI-Container-Management
+<p align="center">
+  <img src="./assets/banner.svg" alt="Awesome Terminal UI and Container Management Banner" width="100%">
+</p>
 
-## Top Terminal UI & Container Management Ecosystem
+# Awesome Terminal UI & Container Management 🚀
 
+[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+[![Tracked Repositories](https://img.shields.io/badge/Open--Source-22%20Projects-38bdf8.svg?style=social)](https://github.com/ishandutta2007/Awesome-Terminal-UI-Container-Management)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/ishandutta2007/Awesome-Terminal-UI-Container-Management/pulls)
 
-
-**Curated List of SaaS/Commercial Products & Open-Source GitHub Projects**  
-
-*Focused on Terminal User Interfaces (TUIs), Docker & Podman Orchestration, Kubernetes Cluster Management & Container Observability*  
-
-**Last updated: November 2026**
-
-
-
-This repository tracks notable **SaaS/commercial platforms** and **open-source projects** for **Terminal UI & Container Management**. These tools provide keyboard-driven terminal dashboards, lightweight web UIs, desktop managers, real-time log streaming, resource telemetry, and multi-cluster orchestration for Docker, Podman, Compose, and Kubernetes environments.
-
-
-
-**Examples** include Portainer, Docker Desktop, Podman Desktop, Rancher Desktop, Lens, k9s, Lazydocker, ctop, Yacht, and Komodor (the category leaders). 
-
-
-
-**Open-source emphasis**: This section is heavily expanded with every major active project for terminal-based container operations, self-hosted management dashboards, Vim-style TUI workflows, and Kubernetes cluster control — ideal for DevOps engineers, SREs, sysadmins, and developers living in the command line.
-
-
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-
-
-## Table of Contents
-
-- [SaaS/Hosted Platforms](#saashosted-platforms)
-
-- [Open-Source GitHub Projects](#open-source-github-projects)
-
-- [How to Contribute](#how-to-contribute)
-
-- [Disclaimer](#disclaimer)
-
-
-
-## SaaS/Hosted Platforms
-
-
-
-- **[Portainer Business / Cloud](https://portainer.io)**  
-
-  Enterprise container management platform delivering centralized RBAC, GitOps automation, and multi-cluster governance across Docker, Swarm, and Kubernetes.
-
-
-
-- **[Docker Desktop](https://docker.com)**  
-
-  Commercial-tier desktop application bundling Docker Engine, Compose, local Kubernetes, vulnerability scanning, and GUI container management.
-
-
-
-- **[Lens (Mirantis)](https://k8slens.dev)**  
-
-  Kubernetes IDE providing real-time cluster visibility, multi-cluster context switching, built-in terminal access, and resource troubleshooting.
-
-
-
-- **[Komodor](https://komodor.com)**  
-
-  SaaS Kubernetes troubleshooting and reliability platform offering automated incident timelines, change tracking, and self-service developer workflows.
-
-
-
-- **[Cast AI](https://cast.ai)**  
-
-  Cloud-native Kubernetes automation and cost-optimization SaaS platform for real-time cluster autoscaling and container resource right-sizing.
-
-
-
-- **[Spectro Cloud Palette](https://spectrocloud.com)**  
-
-  Enterprise multi-cluster Kubernetes management platform supporting full-stack lifecycle orchestration across cloud, bare-metal, and edge environments.
-
-
-
-- **[Plural](https://plural.sh)**  
-
-  Unified Kubernetes fleet management and continuous deployment platform combining GitOps workflows with embedded cluster observability.
-
-
-
-
-
-## Open-Source GitHub Projects
-
-
-
-- **[k9s (`derailed/k9s`)](https://github.com)**  
-
-  Full-featured terminal UI for interacting with Kubernetes clusters, offering real-time resource monitoring, pod shell access, log tailing, and Vim-style navigation.
-
-
-
-- **[Lazydocker (`jesseduffield/lazydocker`)](https://github.com)**  
-
-  Simple, fast terminal UI for both Docker and Docker Compose written in Go, unifying container logs, ASCII metrics, image pruning, and service restarts.
-
-
-
-- **[ctop (`bcicen/ctop`)](https://github.com)**  
-
-  Top-like terminal interface for container metrics, providing a concise real-time overview of CPU, memory, and network I/O across running containers.
-
-
-
-- **[Portainer Community Edition (`portainer/portainer`)](https://github.com)**  
-
-  Lightweight, self-hosted web management UI enabling quick deployment and administration of Docker, Swarm, Podman, and Kubernetes environments.
-
-
-
-- **[Podman Desktop (`podman-desktop/podman-desktop`)](https://github.com)**  
-
-  Open-source graphical desktop tool for building, running, and managing rootless Podman and Docker containers alongside local Kubernetes clusters.
-
-
-
-- **[Rancher Desktop (`rancher-sandbox/rancher-desktop`)](https://github.com)**  
-
-  Open-source desktop application providing container management (`containerd` or `dockerd`) and single-click Kubernetes version switching on macOS, Windows, and Linux.
-
-
-
-- **[Yacht (`SelfhostedPro/Yacht`)](https://github.com)**  
-
-  Self-hosted web interface for managing Docker containers with an emphasis on one-click template deployments for homelabs and personal servers.
-
-
-
-- **[tuicr (`agavra/tuicr`)](https://github.com/agavra/tuicr)**  
-
-  Terminal UI written in Rust with Vim keybindings for interactive diff inspection, line-level review comments, and agentic developer workflows in the terminal.
-
-
-
-- **[Dry (`moncho/dry`)](https://github.com)**  
-
-  Interactive terminal application for managing Docker and Docker Swarm, displaying live container stats, network topologies, and host disk usage.
-
-
-
-- **[Dockly (`lirantal/dockly`)](https://github.com)**  
-
-  Immersive terminal interface for managing Docker containers and services from a single command with real-time log streaming and bash shell attachment.
-
-
-
-- **[Ox (`ajeetdsouza/ox` / `mr-karan/doggo` ecosystem — `ivaaaan/ox`)](https://github.com)**  
-
-  Modern Docker container management TUI built in Rust with `ratatui`, featuring fast keyboard navigation, container inspection, and log filtering.
-
-
-
-- **[Berth (`rluders/berth`)](https://github.com/rluders/berth)**  
-
-  Terminal-based UI built in Go supporting both Docker and Podman stacks, bringing a `k9s`-inspired experience to containers, images, volumes, and networks.
-
-
-
-- **[Wharf (`idesyatov/wharf`)](https://github.com/idesyatov/wharf)**  
-
-  Single-binary Go terminal UI built specifically for Docker Compose stacks, combining live CPU/RAM charts, log streaming, and interactive `exec` panes.
-
-
-
-- **[DockTUI (`dialmaster/DockTUI`)](https://github.com/dialmaster/DockTUI)**  
-
-  Interactive terminal dashboard for Docker and Docker Compose environments featuring a command palette, rich log viewer, and quick lifecycle controls.
-
-
-
-- **[Dozzle (`amir20/dozzle`)](https://github.com)**  
-
-  Lightweight, real-time web-based Docker log viewer with low memory footprint, regex search, multi-host support, and split-screen log monitoring.
-
-
-
-- **[Dockge (`louislam/dockge`)](https://github.com)**  
-
-  Fancy, easy-to-use, self-hosted reactive web UI centered on managing `compose.yaml` stacks with an interactive terminal and `docker run` converter.
-
-
-
-- **[Podman TUI (`containers/podman-tui`)](https://github.com)**  
-
-  Official terminal user interface for Podman, enabling interactive management of pods, containers, images, volumes, networks, and system info.
-
-
-
-- **[Kompose (`kubernetes/kompose`)](https://github.com)**  
-
-  Open-source conversion tool that translates Docker Compose files into native Kubernetes deployment manifests and services.
-
-
-
-### Additional Strong Open-Source Options
-
-
-
-- **[Minimalist Docker TUIs](https://github.com)** like **tdocker**, **dockerdash-tui**, **portainer-cli**, and **docker-compose-manager** for fast single-keypress container actions.
-
-- **[Kubernetes Terminal Dashboards](https://github.com)** including **kdash**, **kubecolor**, **kubectx / kubens**, and **stern** for multi-pod log tailing and context switching.
-
-- **[Lightweight Container Runtimes & CLI Tools](https://github.com)** such as **Podman**, **nerdctl**, **Colima**, **OrbStack (CLI integrations)**, and **Lima** for fast local Linux VM container execution.
-
-- **[Self-Hosted Web Dashboards](https://github.com)** like **Arcane**, **Komodo (`moghtech/komodo`)**, and **Swarmpit** for automated multi-server container builds and deployments.
-
-- Many community **Ratatui (Rust)** and **Bubble Tea (Go)** TUI widgets for live container telemetry and log inspection.
-
-
-
-**Frameworks for building custom systems**: Combine **k9s** or **Lazydocker**, **Podman** or **Docker Engine**, **Dozzle**, and **cAdvisor + Prometheus** for fast, keyboard-first container orchestration and observability.
-
-
-
-## How to Contribute
-
-
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## Disclaimer
-
-
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- Container management tools that mount the Docker socket (`/var/run/docker.sock`) or access Kubernetes `kubeconfig` files carry elevated host privileges and must follow strict least-privilege security practices.
-
-- Self-hosted open-source dashboards should be secured behind authentication, TLS, or VPN tunnels when exposed over a network.
-
-
+A curated catalog of leading **Terminal User Interfaces (TUIs)**, lightweight web consoles, desktop dashboards, and commercial SaaS platforms for **Docker**, **Podman**, **Docker Compose**, and **Kubernetes** cluster orchestration. Engineered for DevOps engineers, Site Reliability Engineers (SREs), sysadmins, and terminal-first software developers seeking keyboard-driven workflows, instant log tailing, container telemetry, and multi-cluster observability.
 
 ---
 
+## Table of Contents
 
+- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
+- [Commercial Platforms & SaaS Products](#commercial-platforms--saas-products)
+- [Open-Source GitHub Projects](#open-source-github-projects)
+- [Ecosystem Matrix: Feature Comparison](#ecosystem-matrix-feature-comparison)
+- [How to Contribute](#how-to-contribute)
+- [Disclaimer](#disclaimer)
 
-**Made for DevOps engineers, SREs, sysadmins, and terminal-first developers.**  
+---
 
-Let's make container and cluster management faster, lighter, and more open.
+## Sector Overview & Market Dynamics
+
+The global container management and Kubernetes software market is valued at approximately **$3.8 Billion to $5.8 Billion in 2025–2026** and is projected to expand beyond **$24 Billion by 2030–2031** at a compound annual growth rate (CAGR) between 17% and 24%. 
+
+Market dynamics exhibit a dual structure:
+- **Concentrated Infrastructure Core**: The base orchestration plane and managed container runtimes are heavily concentrated around hyperscalers and enterprise giants (AWS EKS, Google Cloud GKE, Microsoft Azure AKS, Red Hat OpenShift, and Docker Engine), which command over 60% of all enterprise production deployments.
+- **Fragmented Tooling & Observability Edge**: Conversely, developer operations, terminal user interfaces (TUIs), multi-cluster troubleshooting consoles, and container cost optimization tools remain **moderately to highly fragmented**. Hundreds of fast-moving open-source utilities and specialized venture-backed platforms compete directly to streamline terminal workflows, GitOps delivery, local developer environments, and real-time pod forensics.
+
+---
+
+## Commercial Platforms & SaaS Products
+
+The following commercial and enterprise container management platforms provide managed multi-cluster orchestration, cloud cost intelligence, and developer tooling. Sorted in descending order by company scale (valuation / enterprise revenue).
+
+| Platform / Vendor | Starting Paid Tier Pricing | Free Tier / Free Trial Limits | Company Scale (Valuation / Revenue) | Core Focus & Deployment Capabilities |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Docker Desktop](https://docker.com)** | **$9 / user / month** (Docker Pro, billed annually) | **Free forever (Docker Personal)**: Limited to personal use, education, open-source, or businesses with < 250 employees AND < $10M annual revenue. Capped at 200 image pulls/day and 1 private repo. | **$2.1B Valuation** (~$190M–$200M ARR) | Flagship developer container desktop application bundling Docker Engine, Docker Compose, local Kubernetes, Dev Environments, and Docker Scout security scanning. |
+| **[Spectro Cloud Palette](https://spectrocloud.com)** | **$530 / pack** (Pay-as-you-go capacity units; starting ~$4,250/yr for standard support tiers) | **No permanent free tier**; Free proof-of-concept / sandbox access available upon demo consultation. | **$1.0B+ Valuation** ($260M Total Funding; Series D unicorn) | Enterprise full-stack multi-cluster lifecycle management across cloud, bare-metal, data center, and edge environments featuring declarative Palette profiles and PaletteAI. |
+| **[Cast AI](https://cast.ai)** | **Usage-based** (Compute optimization fees tied to managed CPU/GPU cores) | **Free forever (Cost Monitoring Tier)**: Unlimited Kubernetes clusters and node analysis for real-time cost visibility, workload right-sizing, and bin-packing audits (automated autoscaling requires paid plans). | **$1.0B+ Valuation** ($196M+ Total Funding; Series C/Strategic unicorn) | Cloud-native Kubernetes cost-optimization and GPU cluster automation engine delivering instant rightsizing, spot-instance replacement, and multi-cloud bin-packing. |
+| **[Lens (Mirantis)](https://k8slens.dev)** | **$25 / seat / month** (Lens Pro, billed annually at $300/yr) | **Free forever (Lens Personal)**: Restricted to non-commercial personal use, students, educators, and startups with < $10M in annual revenue or funding. Excludes team collaboration and CVE feeds. | **$625M Acquisition Valuation** (~$112M Revenue; acquired by IREN) | Desktop-grade Kubernetes IDE providing multi-cluster switching, pod log tailing, container shell exec, Helm chart rollouts, and custom extension support. |
+| **[Komodor](https://komodor.com)** | **$1,000 / month** (Starting commercial package; Platform Fee + AI SRE token consumption) | **14-day free trial**: Full access to the Starter platform and Klaudia AI SRE assistant; no credit card required upfront. Permanent free tier has been discontinued. | **~$168M Estimated Valuation** ($67M–$90M Total Funding; Series B) | Kubernetes operations, incident triage, and automated root-cause analysis platform featuring interactive deployment timelines and AI SRE assistance. |
+| **[Portainer Business](https://portainer.io)** | **$1,045 / year** (Starter plan covering up to 5 nodes, max 16 vCPUs/node) | **Free forever (3 Nodes Free)**: Full Portainer Business Edition license unlocked for up to 3 managed nodes/devices forever. (Also offers unrestricted open-source Community Edition). | **$25M–$50M Estimated Valuation** ($13.4M Total Funding; ~$4.7M ARR) | Centralized web-based container management console supporting Docker, Docker Swarm, Nomad, and Kubernetes clusters with built-in RBAC and GitOps templates. |
+| **[Plural](https://plural.sh)** | **$450 / month** (Pro Plan covering 1 cluster; +$250/mo per additional cluster up to 10 clusters) | **14-day free trial (Sandbox)** / **30-day trial for Pro**: Full deployment engine access; no credit card required to begin trial. | **$16.1M Total Funding** (Seed / Seed Extension by Primary Venture Partners) | Cloud-native Kubernetes fleet management, GitOps application deployment, and continuous infrastructure delivery platform with automated PR pipelines. |
+
+---
+
+## Open-Source GitHub Projects
+
+Explore the top open-source terminal user interfaces (TUIs), command-line controllers, and self-hosted container management dashboards. Sorted in descending order by GitHub stargazers count.
+
+| Project & Repository | Community Traction | Primary Technology | Description & Key Capabilities |
+| :--- | :---: | :---: | :--- |
+| **[Dive](https://github.com/wagoodman/dive)** | [![Stars](https://img.shields.io/github/stars/wagoodman/dive?style=social&color=white)](https://github.com/wagoodman/dive/stargazers) | Go | Interactive terminal tool for exploring Docker container image layers, discovering image efficiency, and analyzing duplicate or wasted space between builds. |
+| **[Lazydocker](https://github.com/jesseduffield/lazydocker)** | [![Stars](https://img.shields.io/github/stars/jesseduffield/lazydocker?style=social&color=white)](https://github.com/jesseduffield/lazydocker/stargazers) | Go | The definitive keyboard-centric terminal UI for Docker and Docker Compose. Unifies container logs, ASCII resource metrics, stopped-container pruning, and live exec shells. |
+| **[Portainer Community Edition](https://github.com/portainer/portainer)** | [![Stars](https://img.shields.io/github/stars/portainer/portainer?style=social&color=white)](https://github.com/portainer/portainer/stargazers) | Go / TypeScript | Ubiquitous open-source, self-hosted web console enabling point-and-click deployment, volume administration, and networking for Docker, Podman, and Kubernetes nodes. |
+| **[k9s](https://github.com/derailed/k9s)** | [![Stars](https://img.shields.io/github/stars/derailed/k9s?style=social&color=white)](https://github.com/derailed/k9s/stargazers) | Go | High-performance terminal UI for Kubernetes clusters. Features Vim keybindings, real-time resource telemetry, CRD inspection, port forwarding, and instant log stream tailing. |
+| **[Dockge](https://github.com/louislam/dockge)** | [![Stars](https://img.shields.io/github/stars/louislam/dockge?style=social&color=white)](https://github.com/louislam/dockge/stargazers) | TypeScript / Node.js | Reactive, elegant web dashboard designed specifically for managing `compose.yaml` stacks. Features a built-in terminal, live container state indicators, and `docker run` to compose translation. |
+| **[ctop](https://github.com/bcicen/ctop)** | [![Stars](https://img.shields.io/github/stars/bcicen/ctop?style=social&color=white)](https://github.com/bcicen/ctop/stargazers) | Go | Top-like terminal monitor displaying continuous, real-time CPU, memory, and network I/O container metrics across Docker, runC, and containerd hosts. |
+| **[Dozzle](https://github.com/amir20/dozzle)** | [![Stars](https://img.shields.io/github/stars/amir20/dozzle?style=social&color=white)](https://github.com/amir20/dozzle/stargazers) | Go / Vue.js | Ultra-lightweight, zero-configuration log viewer for Docker containers with instantaneous WebSocket streaming, fuzzy regex search, and multi-server daemon aggregation. |
+| **[Kompose](https://github.com/kubernetes/kompose)** | [![Stars](https://img.shields.io/github/stars/kubernetes/kompose?style=social&color=white)](https://github.com/kubernetes/kompose/stargazers) | Go | Official Kubernetes translation utility converting Docker Compose manifest files into native Kubernetes Deployments, PersistentVolumeClaims, and Services. |
+| **[Podman Desktop](https://github.com/podman-desktop/podman-desktop)** | [![Stars](https://img.shields.io/github/stars/podman-desktop/podman-desktop?style=social&color=white)](https://github.com/podman-desktop/podman-desktop/stargazers) | TypeScript / Electron | Open-source desktop graphical environment for building, inspecting, and running rootless Podman and Docker containers alongside local Kind/Minikube clusters. |
+| **[Rancher Desktop](https://github.com/rancher-sandbox/rancher-desktop)** | [![Stars](https://img.shields.io/github/stars/rancher-sandbox/rancher-desktop?style=social&color=white)](https://github.com/rancher-sandbox/rancher-desktop/stargazers) | TypeScript / Electron | Complete desktop container management solution providing choice between `containerd` and `dockerd` (Moby) runtimes and single-click Kubernetes version switching. |
+| **[Dockly](https://github.com/lirantal/dockly)** | [![Stars](https://img.shields.io/github/stars/lirantal/dockly?style=social&color=white)](https://github.com/lirantal/dockly/stargazers) | Node.js | Interactive terminal interface for Docker providing instant status dashboards, container log monitoring, quick service restarts, and one-key terminal attachment. |
+| **[tuicr](https://github.com/agavra/tuicr)** | [![Stars](https://img.shields.io/github/stars/agavra/tuicr?style=social&color=white)](https://github.com/agavra/tuicr/stargazers) | Rust | High-performance terminal UI built in Rust with Vim bindings for code review, diff inspection, and developer workflows integrated into command-line environments. |
+| **[Dry](https://github.com/moncho/dry)** | [![Stars](https://img.shields.io/github/stars/moncho/dry?style=social&color=white)](https://github.com/moncho/dry/stargazers) | Go | Terminal-native manager for Docker and Docker Swarm clusters, presenting live container resource utilization, network topology graphs, and disk consumption stats. |
+| **[kdash](https://github.com/kdash-rs/kdash)** | [![Stars](https://img.shields.io/github/stars/kdash-rs/kdash?style=social&color=white)](https://github.com/kdash-rs/kdash/stargazers) | Rust | Fast, keyboard-driven terminal dashboard for Kubernetes built with Ratatui, featuring pod logs, multi-namespace filtering, and resource consumption charts. |
+| **[Kubebox](https://github.com/astefanutti/kubebox)** | [![Stars](https://img.shields.io/github/stars/astefanutti/kubebox?style=social&color=white)](https://github.com/astefanutti/kubebox/stargazers) | JavaScript / Node.js | Terminal and web console for Kubernetes and OpenShift with real-time pod logs, live cluster resource metrics, and interactive container remote-terminal shells. |
+| **[Podman TUI](https://github.com/containers/podman-tui)** | [![Stars](https://img.shields.io/github/stars/containers/podman-tui?style=social&color=white)](https://github.com/containers/podman-tui/stargazers) | Go | The official TUI for Podman, exposing interactive management panels for pods, rootless containers, container images, volumes, and bridge networks. |
+| **[Yacht](https://github.com/SelfhostedPro/Yacht)** | [![Stars](https://img.shields.io/github/stars/SelfhostedPro/Yacht?style=social&color=white)](https://github.com/SelfhostedPro/Yacht/stargazers) | Vue / Python | Self-hosted Docker container manager tailored for homelabs and small servers, offering one-click application templates, easy variable mapping, and basic stats. |
+| **[DockTUI](https://github.com/dialmaster/DockTUI)** | [![Stars](https://img.shields.io/github/stars/dialmaster/DockTUI?style=social&color=white)](https://github.com/dialmaster/DockTUI/stargazers) | Go | Interactive command-line container manager featuring quick action palettes, log inspection views, and keyboard-first Docker container lifecycle triggers. |
+| **[Berth](https://github.com/rluders/berth)** | [![Stars](https://img.shields.io/github/rluders/berth?style=social&color=white)](https://github.com/rluders/berth/stargazers) | Go | TUI inspired by `k9s` built to operate across Docker and Podman runtimes, enabling unified management of containers, images, volumes, and networks. |
+| **[Wharf](https://github.com/idesyatov/wharf)** | [![Stars](https://img.shields.io/github/idesyatov/wharf?style=social&color=white)](https://github.com/idesyatov/wharf/stargazers) | Go | Standalone terminal UI utility specifically tailored for Docker Compose configurations, combining live CPU/RAM meters, container streaming logs, and exec panes. |
+| **[Ox](https://github.com/ivaaaan/ox)** | [![Stars](https://img.shields.io/github/ivaaaan/ox?style=social&color=white)](https://github.com/ivaaaan/ox/stargazers) | Rust | Fast, modern container management TUI built with Rust and `ratatui`, delivering instant keyboard-driven filtering, container inspection, and log tailing. |
+
+---
+
+## Ecosystem Matrix: Feature Comparison
+
+| Tool / Platform | Primary Interface | Target Runtime | Real-Time Telemetry | In-Terminal Exec Shell | Multi-Cluster / Node Support | License / Model |
+| :--- | :---: | :---: | :---: | :---: | :---: | :---: |
+| **k9s** | TUI (Terminal) | Kubernetes | Yes (Metrics-server) | Yes | Yes (Kubeconfig switch) | Open Source (Apache 2.0) |
+| **Lazydocker** | TUI (Terminal) | Docker / Compose | Yes (Live CPU/RAM) | Yes | Single Host | Open Source (MIT) |
+| **ctop** | TUI (Terminal) | Docker / containerd | Yes (Top-style) | No | Single Host | Open Source (MIT) |
+| **Portainer** | Web UI | Docker, Swarm, K8s | Yes | Yes | Yes (Central Agent) | Open Core (Zlib / Commercial) |
+| **Podman Desktop** | Desktop GUI | Podman / Docker / K8s | Yes | Yes | Yes (Local / Remote) | Open Source (Apache 2.0) |
+| **Lens** | Desktop GUI | Kubernetes | Yes (Prometheus) | Yes | Yes (Multi-K8s Fleet) | Proprietary Freemium |
+| **Dockge** | Web UI | Docker Compose | Yes | Yes | Single Host | Open Source (MIT) |
+| **Dozzle** | Web UI | Docker | Yes (Log Focus) | No | Yes (Multi-agent) | Open Source (MIT) |
+| **Docker Desktop** | Desktop GUI | Docker / Compose / K8s | Yes | Yes | Single Host / Dev Clusters | Proprietary Freemium |
+| **Cast AI** | Cloud SaaS | Kubernetes (EKS/GKE/AKS) | Yes (Deep Analytics) | No | Yes (Enterprise Fleet) | Proprietary / Usage-based |
+| **Komodor** | Cloud SaaS | Kubernetes | Yes (Timeline / Tracing)| No | Yes (Enterprise Fleet) | Proprietary Commercial |
+
+---
+
+## How to Contribute
+
+We welcome community contributions, tool submissions, and updates!
+
+1. **Fork the repository** to your personal GitHub account.
+2. **Create a topic branch** (`git checkout -b add-new-container-tui`).
+3. **Add or edit entries** in `README.md`:
+   - Keep entries strictly factual and alphabetical or sorted by current community metrics.
+   - For open-source projects, include the proper repository link, stargazers badge (`style=social&color=white`), runtime language, and a 1–2 sentence description.
+   - For SaaS tools, specify transparent starting tier pricing, free tier/trial limits, and company scale.
+4. **Submit a Pull Request** with a concise description of the tool and why it benefits the terminal container ecosystem.
+
+---
+
+## Disclaimer & Security Notice
+
+- This curated list is maintained for educational and reference purposes by the community and does not constitute a formal commercial endorsement.
+- **Security Caution**: Container management tools that mount the Docker Unix socket (`/var/run/docker.sock`) or ingest root Kubernetes `kubeconfig` credentials grant elevated privileges over the host. Always verify image sources, enforce least-privilege RBAC policies, and ensure self-hosted web consoles are secured behind TLS and authenticated proxies.
+
+---
+
+<p align="center">
+  <sub>Maintained with ❤️ for the global DevOps, SRE, and Terminal-First Developer Community.</sub>
+</p>
